@@ -44,10 +44,11 @@ body {
 }
 
 .product-grid {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 30px;
-    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
 }
 
 .card {
@@ -112,4 +113,13 @@ footer {
 .hero-image img {
     width: 350px;
     border-radius: 20px;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
 }
