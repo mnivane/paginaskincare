@@ -101,3 +101,15 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 80px 20px;
+}
+
+.hero-image img {
+    width: 350px;
+    border-radius: 20px;
+}
