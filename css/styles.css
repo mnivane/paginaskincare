@@ -117,8 +117,9 @@ footer {
 }
 
 .hero-image img {
-    width: 350px;
+    width: 500px;
     border-radius: 20px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.15);
 }
 
 .card {
