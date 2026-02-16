@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8e9ec;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background: linear-gradient(to right, #f3cbd3, #e7a9b4);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #c96a7a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.products {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card button {
+    background-color: #c96a7a;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.sale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 60px 20px;
+    background-color: #e7a9b4;
+    color: white;
+}
+
+.sale img {
+    border-radius: 15px;
+}
+
+.testimonials {
+    padding: 50px;
+    text-align: center;
+}
+
+footer {
+    background-color: #d88c9a;
+    color: white;
+    padding: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
